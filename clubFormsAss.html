@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashionista's Club Form</title>
+    <style>
+      .parent {
+         
+        display: grid;
+        grid-template-columns: 35% 75%;
+      
+    }
+      .box1 {
+        border: 4px solid ;
+        border-style: double;
+        border-width: 10px;
+        padding: 3px;
+        margin-right: 300px;
+        margin-left: 12px;
+        width: 200px;
+        height: 130px;
+      }
+      .box2{
+          margin-left: 170px;
+      }
+      .text {
+        text-align: center;
+        font-family: sans-serif;
+      }
+      body{
+        background:url(./pink-clothing-rack-pastel-background-generative-ai_431161-11098.avif);
+        background-size: cover;
+        width: 500px;
+        border: 15px solid green;
+        padding: 35px;
+        margin-left: 30%;
+        margin-top: 2%;
+        border-radius: 30px;*/
+            }
+    </style>
+  </head>
+  <body >
+      
+    <h1 style="line-height: 0%; text-align: center">Fashionista's Club Form</h1>
+    <div class="parent">
+      <div class="box1 text">
+        <h2>Student <br> Image</h2>
+        <br>
+        <form >
+            <fieldset style="margin-right 400px; margin-top:40px;"> 
+                <legend>Date Of Birth:</legend>
+                <label for="Year">Year:</label>
+                <input type="text" id="Year" name="Year" value="" /><br />
+                <label for="Month">Month:</label>
+                <input type="text" id="Month" name="Month" value="" /><br />
+                <label for="Day">Day:</label>
+                <input type="text" id="Day" name="Day" value="" /><br />
+              </form></fieldset>
+          
+        <form> 
+          <label for="email" >Email</label><br />
+          <input type="text" id="email" name="email" value="" />
+          <label for="why">Why Fashionista?:</label>
+          <input type="text" id="why" name="why" value="">
+          <label for="roleModel">Fashionista Role Model:</label>
+          <input type="text" id="roleModel" name="roleModel" value="">
+
+        </form>
+      </div>
+      <div class="box2"> <br>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" value="Kosisochukwu"><br> <br>
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" value="Okobi"><br> <br>
+          <label for="matNo">Matric <br>Number:</label>
+          <input type="text" id="matNo" name="matNo" value="20CJ027472"> <br> <br>
+          <p>Gender:
+          <input type="radio" id="male" name="male">
+          <label for="male">Male</label> <br>
+          <input type="radio" id="male" name="male" style="margin-left: 61px;">
+          <label for="male">Female</label><br> <br> <br>
+          <label for="Hall">Hall:</label>
+          <select name="Hall" id="Hall" >
+              <option value="" size=></option>
+              <option value="daniel" size=>Daniel</option>
+              <option value="joseph">Joseph</option>
+              <option value="paul">Paul</option>
+              <option value="john">John</option>
+              <option value="peter">Peter</option>
+            </select> <br> <br>
+        
+            <p>Room <br> Number:
+                <input type="text" >
+            </p>
+          
+
+        </div>
+    </div>
+  </body>
+</html>
