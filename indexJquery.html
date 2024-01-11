@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="./jquery-3.7.1.slim.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#hello").click(function () {
+          //double click button to change twice
+          $("#clickme").toggle();
+          $("#clickme").css("background", "red");
+        });
+      });
+    </script>
+    <title>Document</title>
+    :
+    <style>
+      body {
+        height: 100vh;
+        align-items: center;
+        background: lightblue;
+      }
+      h1 {
+        font-family: sans-serif;
+        font-size: 50px;
+        line-height: 1.5;
+        width: 150%;
+        padding: 30px;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!--  <h1>JS fundamentals 1</h1>
+    <p id="demo">YES!</p>
+    <p>THIS IS THE TIME</p>
+    <p class="test">THIS IS THE TIME</p> -->
+    <!-- <button>Hide</button>  -->
+    <div
+      id="clickme"
+      style="width: 350px; height: 300px; background-color: rgb(234, 0, 255)"
+    ></div>
+    <button id="hello">Change color</button>
+    <!-- <button onclick="this.innerHTML=Date()">The time is?</button>
+    <button onclick="displayDate()">The time?</button> -->
+    <!-- <button onclick="replace()">Try this</button> -->
+  </body>
+</html>
